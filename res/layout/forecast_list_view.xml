@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/forecast_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+     <ListView android:id="@+id/lv_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="@color/drawer_list_select_item"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:background="@android:color/white"/>
+        
+    </android.support.v4.widget.SwipeRefreshLayout>

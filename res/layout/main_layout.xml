@@ -1,0 +1,41 @@
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent">
+    
+    <!-- The main content view -->
+    <FrameLayout
+        android:layout_width="match_parent"
+         android:background="@drawable/today_weather_baground"
+        android:layout_height="match_parent">
+        
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:background="@color/actionbar_menu_background"
+            android:orientation="vertical"
+            android:id="@+id/content_frame">
+        </LinearLayout>
+        <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/content_loading_progressbar"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    </FrameLayout>
+    
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@color/drawer_list_select_item"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/drawer_list_selector"
+        android:background="@android:color/white"/>
+</android.support.v4.widget.DrawerLayout>

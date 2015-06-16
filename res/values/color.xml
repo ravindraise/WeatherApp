@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_background">#2196F3</color>
+    <color name="gradient_start">#50000000</color>
+    <color name="gradient_light_start">#30000000</color>
+    <color name="actionbar_menu_background">#EEEEEE</color>
+    <color name="drawer_list_select_item">#EDEDED</color>
+    <color name="settings_list_divider">#D1D1D1</color>
+    <color name="blue">#0099CC</color>
+    <color name="purple">#9933CC</color>
+    <color name="green">#669900</color>
+    <color name="orange">#FF8800</color>
+    <color name="about_app_background">#EEEEEE</color>
+    <color name="grey">#6D6D6D</color>
+</resources>
